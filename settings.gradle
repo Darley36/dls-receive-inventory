@@ -1,4 +1,4 @@
-rootProject.name = 'try-reactive-commons'
+rootProject.name = 'dls-receive-inventory'
 
 include ':app-service'
 include ':model'

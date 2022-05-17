@@ -1,16 +1,14 @@
 package co.com.reactive.command.sender;
 
-import co.com.reactive.model.modelmessage.ModelMessage;
-import co.com.reactive.model.modelmessage.functionsMQ.CommandBus;
+import co.com.reactive.model.dlsmodel.ModelMessage;
+import co.com.reactive.model.dlsmodel.functionsMQ.CommandBus;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import org.reactivecommons.api.domain.Command;
 import org.reactivecommons.async.api.DirectAsyncGateway;
 import org.reactivecommons.async.impl.config.annotations.EnableDirectAsyncGateway;
-import org.reactivecommons.async.impl.config.annotations.EnableDomainEventBus;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 import java.util.UUID;

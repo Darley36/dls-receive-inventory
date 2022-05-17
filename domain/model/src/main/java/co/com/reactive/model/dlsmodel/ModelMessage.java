@@ -1,4 +1,4 @@
-package co.com.reactive.model.modelmessage;
+package co.com.reactive.model.dlsmodel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

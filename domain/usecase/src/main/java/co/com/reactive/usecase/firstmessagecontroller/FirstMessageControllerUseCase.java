@@ -1,8 +1,8 @@
 package co.com.reactive.usecase.firstmessagecontroller;
 
-import co.com.reactive.model.modelmessage.ModelMessage;
-import co.com.reactive.model.modelmessage.functionsMQ.CommandBus;
-import co.com.reactive.model.modelmessage.functionsMQ.EventsGateway;
+import co.com.reactive.model.dlsmodel.ModelMessage;
+import co.com.reactive.model.dlsmodel.functionsMQ.CommandBus;
+import co.com.reactive.model.dlsmodel.functionsMQ.EventsGateway;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import reactor.core.publisher.Mono;

@@ -21,3 +21,14 @@ Lee el art�culo [Clean Architecture � Aislando los detalles](https://medium.
   }
 }
 ```
+
+#Introduccion
+
+el MS recibe un mensaje de entrada para el registro correspondiente del inventario de licores, interactuando con otras collecciones de mongo para una mejor complementacion entre los datos
+
+Se tendra eventos(Rabbit) collecciones(Mongo) modelos y controladores:
+
+
+#Modelos
+LiquorOrder
+

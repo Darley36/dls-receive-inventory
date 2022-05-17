@@ -1,5 +1,5 @@
 package co.com.reactive.mq.listener;
-import co.com.reactive.model.modelmessage.ModelMessage;
+import co.com.reactive.model.dlsmodel.ModelMessage;
 import co.com.reactive.usecase.firstmessagecontroller.FirstMessageControllerUseCase;
 import lombok.RequiredArgsConstructor;
 import org.reactivecommons.async.api.HandlerRegistry;
